@@ -5,7 +5,7 @@ const SegmentTwo = () => {
   return (
     <ScrollView horizontal>
       <View style={styles.container}>
-        <Text style={styles.text}>ScrollTab</Text>
+        <Text style={styles.text}>Scroll Menu</Text>
         <View style={styles.minicont}>
           <View style={styles.box}>
             <Text>let's</Text>
@@ -59,8 +59,8 @@ const styles = StyleSheet.create({
     gap: 10,
   },
   text: {
-    fontSize: 28,
-    fontWeight: '600',
+    fontSize: 24,
+    fontWeight: '500',
     color: 'black',
   },
 });

@@ -5,7 +5,7 @@ export default function SegmentOne() {
   return (
     <ScrollView>
       <View style={styles.container}>
-        <Text style={styles.text}>UpperTab </Text>
+        <Text style={styles.text}>Upper Menu </Text>
         <View style={styles.mimicont}>
           <View style={[styles.box, styles.red]}>
             <Text>Red</Text>
@@ -53,8 +53,8 @@ const styles = StyleSheet.create({
     backgroundColor: 'yellow',
   },
   text: {
-    fontSize: 28,
-    fontWeight: '600',
+    fontSize: 24,
+    fontWeight: '500',
     color: 'black',
   },
 });
