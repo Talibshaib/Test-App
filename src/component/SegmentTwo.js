@@ -33,7 +33,6 @@ export default SegmentTwo;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    flexDirection: 'column',
     margin: 4,
     padding: 6,
   },
@@ -62,5 +61,6 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: '500',
     color: 'black',
+    elevation: 4,
   },
 });
