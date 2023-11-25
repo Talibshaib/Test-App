@@ -3,28 +3,25 @@ import React from 'react';
 
 const SegmentTwo = () => {
   return (
-    <ScrollView horizontal>
-      <View style={styles.container}>
-        <Text style={styles.text}>Scroll Menu</Text>
+    <View style={styles.container}>
+      <Text style={styles.text}>Catogeries</Text>
+      <ScrollView horizontal>
         <View style={styles.minicont}>
           <View style={styles.box}>
-            <Text>let's</Text>
+            <Text style={styles.btext}>All</Text>
           </View>
-          <View style={styles.box}>
-            <Text>Do</Text>
+          <View style={[styles.box]}>
+            <Text style={styles.btext}>Mountains</Text>
           </View>
-          <View style={styles.box}>
-            <Text>Something</Text>
+          <View style={[styles.box]}>
+            <Text style={styles.btext}>Lake</Text>
           </View>
-          <View style={styles.box}>
-            <Text>New</Text>
-          </View>
-          <View style={styles.box}>
-            <Text>....</Text>
+          <View style={[styles.box]}>
+            <Text style={styles.btext}>Desert</Text>
           </View>
         </View>
-      </View>
-    </ScrollView>
+      </ScrollView>
+    </View>
   );
 };
 
@@ -37,20 +34,14 @@ const styles = StyleSheet.create({
     padding: 6,
   },
   box: {
-    flex: 1,
+    marginTop: 18,
+    // flex: 1,
     width: 100,
-    height: 100,
+    height: 50,
     justifyContent: 'center',
     alignItems: 'center',
     borderRadius: 8,
-    backgroundColor: '#F0DBAF',
-    elevation: 4,
-    shadowOffset: {
-      width: 8,
-      height: 1,
-    },
-    shadowColor: 'black',
-    shadowOpacity: 1,
+    backgroundColor: '#265073',
   },
   minicont: {
     flex: 1,
@@ -58,9 +49,12 @@ const styles = StyleSheet.create({
     gap: 10,
   },
   text: {
-    fontSize: 24,
+    fontSize: 20,
     fontWeight: '500',
     color: 'black',
     elevation: 4,
+  },
+  btext: {
+    color: '#ECF4D6',
   },
 });

@@ -116,7 +116,7 @@ export default function SegmentFour() {
 
 const styles = StyleSheet.create({
   text: {
-    fontSize: 24,
+    fontSize: 20,
     fontWeight: '500',
     color: 'black',
     elevation: 4,

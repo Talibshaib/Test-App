@@ -68,6 +68,7 @@ const styles = StyleSheet.create({
     padding: 6,
   },
   mincont: {
+    marginTop:10,
     backgroundColor: '#265073',
     borderRadius: 6,
     flex: 1,
@@ -82,7 +83,7 @@ const styles = StyleSheet.create({
     },
   },
   text: {
-    fontSize: 24,
+    fontSize: 20,
     fontWeight: '500',
     color: 'black',
     elevation: 4,

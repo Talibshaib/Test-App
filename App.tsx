@@ -4,12 +4,14 @@ import SegmentOne from './src/component/SegmentOne';
 import SegmentTwo from './src/component/SegmentTwo';
 import SegmentThree from './src/component/SegmentThree';
 import SegmentFour from './src/component/SegmentFour';
+import NavMenu from './src/component/NavMenu';
 
 function App() {
   return (
     <View style={styles.body}>
       <SafeAreaView>
         <ScrollView>
+          <NavMenu />
           <SegmentOne />
           <SegmentTwo />
           <SegmentThree />
