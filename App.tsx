@@ -5,6 +5,7 @@ import SegmentTwo from './src/component/SegmentTwo';
 import SegmentThree from './src/component/SegmentThree';
 import SegmentFour from './src/component/SegmentFour';
 import NavMenu from './src/component/NavMenu';
+import SegmentFive from './src/component/SegmentFive';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <SegmentTwo />
           <SegmentThree />
           <SegmentFour />
+          <SegmentFive />
         </ScrollView>
       </SafeAreaView>
     </View>
